@@ -10,4 +10,9 @@ import { StylesCompileDependency } from '@angular/compiler';
 export class WordComponent {
     en = 'Hello';
     vn = 'Xin chao';
+    imageURL = 'https://angular.io/assets/images/logos/angular/logo-nav@2x.png';
+    forgot = false;
+    toggleForgot() {
+        this.forgot = !this.forgot;
+    }
 }
